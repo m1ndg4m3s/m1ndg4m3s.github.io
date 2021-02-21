@@ -1,17 +1,979 @@
-<!doctype html>
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+<!-- author gpapad -->
+<!-- <footer> <small>&copy; Copyright 2020,2021 gpapad </small> </footer> -->
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment.</p>
-    </div>
-</article>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	 <title>gpapad.com</title>
+	 <meta name="description" content="">
+	 <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	 <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	 <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	 ================================================== -->
+	 <link rel="shortcut icon" href="siteIcon.jpg" >
+</head>
+
+<body>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Blog</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 style="color:rgb(248,248,255);" class="responsive-headline">Giorgos E. Papadakis</h1>
+            <h3 style="color:rgb(248,248,255);"> </span>   <font size="+3"> Research & Development Engineer </font> </span>
+
+            </h3>
+            <hr />
+            <ul class="social">
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li> <!--TODO-->
+              <li><a href="https://www.facebook.com/profile.php?id=100014198116459"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li> <!--TODO-->
+              <li><a href="https://mail.google.com/mail/u/?authuser=gpapad.csd@gmail.com"><i class="fa fa-google-plus"></i></a></li> <!--TODO-->
+              <li><a href="#"><i class="fa fa-github"></i></a></li> <!--TODO-->
+              <li><a href="hhttps://stackoverflow.com/users/1009130/0xgp"><i class="fa fa-stack-overflow"></i></a></li>              
+              <li><a href="https://twitter.com/dr_gpapad"><i class="fa fa-twitter"></i></a></li>              
+              <li><a href="https://join.skype.com/invite/q3hwib5bQBfB"><i class="fa fa-skype"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+              <p>
+              Hello! My name is Giorgos(pronounced ['yorgos]) Papadakis and I am currently Senior Software Engineer in Automotive Industry(NDA), working on designing and 
+              developing the next generation systems for automated Collisions Predictor on Automotive software. My interests are in the broad area of computer systems and storage systems. 
+              Special emphasis has been placed in Cloud Computing and Big Data Analytics. Lately I have gained a lot of experience in Embedded Automotive Software. Finally, 
+              I study and develop software for Cryptocurrencies and Blockchain for well established nonprofit organizations.
+              </p>
+              <p>
+              Always passionate for knowledge and science, combined with a constant strong desire to learn new skills and technologies. 
+              Here are some Languages and technologies currently being used:
+              C, C++, CodeProver, BugFinder, AutoSAR, Python, Bash, Java. 
+              </p>
+              <p>
+              In my own time, I enjoy swimming, playing chess, reading philosophy<br />
+              and many more...
+              </p>
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Giorgos E. Papadakis</span><br>
+						   <span>Camberwell, London,<br>
+                        United Kingdom
+                     </span><br>
+                     <span>gpapad.csd@gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="gpapad_cv.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+        <div class="three columns header-col">
+           <h1><span>Experience</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+           <div class="row item">
+
+              <div class="twelve columns">
+
+                 <h3>Automotive Industry (NDA)</h3>
+                 <p class="info">Senior Software Engineer <span>&bull;</span> <em class="date">November 2019 - Present</em></p>
+
+                 <p>
+                  <span>&bull;</span> Implementation of Vehicles Collision Prediction Library for Automotive Software.  <br>
+                  <span>&bull;</span> Code Maintenance and Solutions Support of Map Compilation automotive project. <br>
+                  <span>&bull;</span> Code Proving and Code Verification for large automotive projects. <br>
+                 </p>
+
+              </div>
+
+           </div> <!-- item end -->
+
+           <div class="row item">
+
+              <div class="twelve columns">
+
+                 <h3>Freelance Remote</h3>
+                 <p class="info">Freelance Developer <span>&bull;</span> <em class="date">November 2012 - Present</em></p>
+
+                 <p>
+                  Programming, Porting and Debugging of various complex computer systems.
+                 </p>
+
+              </div>
+
+           </div> <!-- item end -->
+
+           <div class="row item">
+
+            <div class="twelve columns">
+
+               <h3>Tom Sawyer Software</h3>
+               <p class="info">Senior Software Engineer, <span>&bull;</span> <em class="date">December 2018 - November 2019</em></p>
+
+               <p>
+                  Large Graph Analytics and Data Visualization.
+               </p>
+
+            </div>
+
+         </div> <!-- item end -->
+
+         <div class="row item">
+
+            <div class="twelve columns">
+
+               <h3>CARV, ICS-FORTH</h3>
+               <p class="info">Research and Development Engineer <span>&bull;</span> <em class="date">June 2017 - December 2018</em></p>
+
+               <p>
+                  Implementation and Evaluation of a multi-host orchestration tool over Cloud.
+               </p>
+
+            </div>
+
+         </div> <!-- item end -->
+
+         <div class="row item">
+
+            <div class="twelve columns">
+
+               <h3>CARV, ICS-FORTH</h3>
+               <p class="info">Graduate Research Assistant <span>&bull;</span> <em class="date">February 2016 - February 2017</em></p>
+
+               <p>
+                  <span>&bull;</span> Fine-grained Evaluation of Network Drivers over Virtual Machines. <br>
+                  <span>&bull;</span> Fine-grained Evaluation of Storage Drivers over Virtual Machines. <br>
+               </p>
+
+            </div>
+
+         </div> <!-- item end -->
+
+         <div class="row item">
+
+            <div class="twelve columns">
+
+               <h3>CARV, ICS-FORTH</h3>
+               <p class="info">Graduate Research Assistant, <span>&bull;</span> <em class="date">January 2013 - November 2015</em></p>
+
+               <p>
+                  Design and Implementation of an Efficient Key-Value store for Persistent Storage.
+               </p>
+
+            </div>
+
+         </div> <!-- item end -->
+
+         <div class="row item">
+
+            <div class="twelve columns">
+
+               <h3>University of Crete</h3>
+               <p class="info">Teaching Assistant <span>&bull;</span> <em class="date">April 2014 - June 2012</em></p>
+
+               <p>
+                  Teaching Computer Architecture Course for Undergraduate students of UoC with special needs.
+               </p>
+
+            </div>
+
+         </div> <!-- item end -->
+
+         <div class="row item">
+
+            <div class="twelve columns">
+
+               <h3>University of Crete</h3>
+               <p class="info">Intern <span>&bull;</span> <em class="date"> April 2012 - October 2012</em></p>
+
+               <p>
+                  Evaluation Study for Software used in Schools.
+               </p>
+
+            </div>
+
+         </div> <!-- item end -->
+
+         <div class="row item">
+
+            <div class="twelve columns">
+
+               <h3>CARV, ICS-FORTH</h3>
+               <p class="info">Undergraduate Research Assistant <span>&bull;</span> <em class="date">2011 - 2012</em></p>
+
+               <p>
+                  Design and Implementation of a Software Transactional Memory System.
+               </p>
+
+            </div>
+
+         </div> <!-- item end -->
+
+        </div> <!-- main-col end -->
+
+     </div> <!-- End Work -->
+
+          <!-- Research Interests
+      ----------------------------------------------- -->
+      <div class="row Interests">
+
+        <div class="three columns header-col">
+           <h1><span>Education</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+           <div class="row item">
+
+              <div class="twelve columns">
+
+                 <h3>Computer Science Dempartment, University of Crete</h3>
+                 <p class="info">B.Sc Degree in Computer Science <span>&bull;</span> <em class="date"> 2008 - 2012</em></p>
+
+                 <p>
+                  GPA: Excellent – top 2%.
+                  Thesis: Design, Implementation and Evaluation of a Software Transactional Memory System
+                 </p>
+
+              </div>
+
+           </div> <!-- item end -->
+
+           <div class="row item">
+
+              <div class="twelve columns">
+
+                 <h3>Computer Science Dempartment, University of Crete</h3>
+                 <p class="info">M.Sc in Computer Science and Engineering <span>&bull;</span> <em class="date">2012 - 2014</em></p>
+
+                 <p>
+                  <span>&bull;</span> Successfully completed full Courses of Graduate Programme. <br>
+                  <span>&bull;</span> Successfully completed Teaching Assistant duties of Graduate Programme. <br>
+                  <span>&bull;</span> Granted two years Graduate Fellowship.<br>
+                 </p>
+
+              </div>
+
+           </div> <!-- item end -->
+
+        </div> <!-- main-col end -->
+
+     </div> <!-- End Research Interests -->
+
+      <!-- HONORS & AWARDS
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+        <div class="three columns header-col">
+           <h1><span>HONORS & AWARDS</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+       <div class="bars">
+
+          <ul class="skills">
+            <li><span class="info"></span><em>Monades Aristeias UCNET</em> <em class="date">2015</em></li>
+            <li><span class="info"></span><em>Ranked in top 2% of the Computer Science Department</em> <em class="date">2012</em></li>
+            <li><span class="info"></span><em>Ranked 1st in the Graduation Ceremony</em> <em class="date">2012</em></li>
+            <li><span class="info"></span><em>Ranked 2nd in class (110 students overall)</em> <em class="date">2012</em></li>
+            <li><span class="info"></span><em>ICS-FORTH - Graduate Fellowship</em> <em class="date">2013-2015</em></li>
+            <li><span class="info"></span><em> ICS-FORTH - Undergraduate Fellowship</em> <em class="date">2011-2012</em></li>
+            <li><span class="info"></span><em>University of Crete Scholarship</em> <em class="date">2015</em></li>
+            <li><span class="info"></span><em>University of Crete Scholarship</em> <em class="date">2014</em></li>
+            <li><span class="info"></span><em>University of Crete Scholarship</em> <em class="date">2013</em></li>
+            <li><span class="info"></span><em> HiPEAC Summer school Attendance Grant</em> <em class="date">2013</em></li>
+            <li><span class="info"></span><em>MUMIA, Summer School, FORTH-ICS, Registration Grant</em> <em class="date">2014</em></li>
+            <li><span class="info"></span><em> FIA, International Conference, Registration Grant</em> <em class="date">2014</em></li>
+         </ul>
+
+       </div><!-- end skill-bars -->
+
+     </div> <!-- main-col end -->
+
+     </div> <!-- End skills -->     
+
+
+      <!-- Technical Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Technical Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+				<div class="bars">
+
+				   <ul class="skills">
+                  <li><span class="info"></span><em> Languages<br> </em> C, C++, Python, Java, Bash, Assembly (MIPS, Risc V, x86) </em> </li>
+                  <li><span class="info"></span><em> Cloud <br> </em> QEMU, KVM, Openstack, Xen, Kubernetes, Docker </em></li>
+                  <li><span class="info"></span><em> Verification<br> </em>  MISRA C/C++, Google  Coverage Tests, Valgrind, Cachegrind </em></li>
+                  <li><span class="info"></span><em> Versioning Control <br></em> Git, SVN, MKS </em></li>
+                  <li><span class="info"></span><em>  Miscellaneous <br></em>latex, Gnuplot, matlab, Inkscape, Tmux Vim, Make, CMake </em> </li>
+                  <li><span class="info"></span><em>Debugging <br></em> GCC, GDB, Polyspace CodeProver,Polyspace BugFinder </em></li>
+                  <li><span class="info"></span><em> Web Developing and Databases<br> </em>PHP, XML, SQL, HTML, Apache, Javascript, YAML, JSON </em></li>
+                  <li><span class="info"></span><em>Operating Systems <br></em> Redimine, Confluence, Jira, Android OS, Hardware Support </em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End Technical skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My stories.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/blog1_800x800.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Tech</h5>
+                              <p>Let me tell you a story</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/blog2_800x800.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Drone</h5>
+                              <p>Drone Tricks</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/blog3_800x800.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>VR</h5>
+                              <p>VR tricks</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/blog4_800x800.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coding</h5>
+                              <p>Coding Ep1</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/blog5_800x800.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coding</h5>
+                              <p>Coding Ep2</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/blog6_800x800.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coding</h5>
+                              <p>Coding Ep3</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/blog7_800x800.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coffee</h5>
+                              <p>Coffee Loading</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/blog8_800x800.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coding</h5>
+                              <p>Coding Ep4</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blog1.PNG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Let me tell you a story</h4>
+			      <p>To Be Announced...</p>
+               <span class="categories"><i class="fa fa-tag"></i>Technology</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.gpapad.com" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blog2.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Drones & AI</h4>
+			      <p>To Be Announced...</p>
+               <span class="categories"><i class="fa fa-tag"></i>Drones, AI</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.gpapad.com" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blog3.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>VR</h4>
+			      <p>To Be Announced...</p>
+               <span class="categories"><i class="fa fa-tag"></i>VR</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.gpapad.com" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blog4.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coding Episode 1</h4>
+			      <p>To Be Announced...</p>
+               <span class="categories"><i class="fa fa-tag"></i>Coding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.gpapad.com" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blog5.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coding Episode 2</h4>
+			      <p>To Be Announced...</p>
+               <span class="categories"><i class="fa fa-tag"></i>Coding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.gpapad.com" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blog6.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coding Episode 3</h4>
+			      <p>To Be Announced...</p>
+               <span class="categories"><i class="fa fa-tag"></i>Coding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.gpapad.com" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blog7.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coffee</h4>
+			      <p>To Be Announced...</p>
+               <span class="categories"><i class="fa fa-tag"></i>Coffee, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.gpapad.com" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blog8.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coding Episode 4</h4>
+			      <p>To Be Announced...</p>
+               <span class="categories"><i class="fa fa-tag"></i>Coding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.gpapad.com" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get Hosting.</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><span class="lead">Hello</span></h2>
+            <p><span class="lead"> World  </span></p>
+
+         </div>
+
+         <div class="three columns action">
+
+
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+                     <li>
+                      <blockquote>
+                         <p>
+                            Vicarious learning from the experiences of others saves making errors yourself, but I regard the study of successes as being basically more important 
+                            than the study of failures. There are so many ways of being wrong and so few of being right, studying successes is more efficient.
+                         </p>
+                         <cite>Richard Hamming</cite>
+                      </blockquote>
+                   </li> <!-- slide ends -->
+
+                   <li>
+                    <blockquote>
+                       <p>
+                        There is no perfection only life.
+                       </p>
+                       <cite>Milan Kundera</cite>
+                    </blockquote>
+                 </li> <!-- slide ends -->
+
+                 <li>
+                  <blockquote>
+                     <p>
+                      If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.
+                     </p>
+                     <cite>Nikola Tesla</cite>
+                  </blockquote>
+               </li> <!-- slide ends -->
+
+               <li>
+                <blockquote>
+                   <p>
+                      We get into the habbit of living before acquiring the habit of thinking.
+                   </p>
+                   <cite>Albert Camus</cite>
+                </blockquote>
+             </li> <!-- slide ends -->
+
+             <li>
+                <blockquote>
+                   <p>
+                      True generosity toward the future consists in giving everything to the present.
+                   </p>
+                   <cite>Albert Camus</cite>
+                </blockquote>
+             </li> <!-- slide ends -->
+
+                     
+― Richard Hamming
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead"> 
+                     Got a question? I'm here to help! <br> 
+                     Please email me using the form below.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> There was an error. Please try again later.</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Giorgos E. Papadakis<br>
+						   Camberwell, London, United Kingdom<br>
+						    <!--<span>(+30) 6940306006</span> -->
+					   </p>
+
+				   </div>
+
+               <div class="widget widget_tweets">
+
+                  <h4 class="widget-title">Latest Tweets</h4>
+
+                  <ul id="twitter">
+                     <li>
+                        <span>
+                           <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top car exporting countries in the world: <br><br>1. Germany 🇩🇪 <br>2. Japan 🇯🇵 <br>3. USA 🇺🇸 <br>4. Mexico 🇲🇽 <br>5. United Kingdom 🇬🇧 <br>6. Canada 🇨🇦 <br>7. South Korea 🇰🇷 <br>8. Spain 🇪🇸 <br>9. Belgium 🇧🇪 <br>10. France 🇫🇷</p>&mdash; Statistics 📊📈 (@stats_feed) <a href="https://twitter.com/stats_feed/status/1363372157905100802?ref_src=twsrc%5Etfw">February 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                     </li>
+                     <li>
+                        <span>
+                           <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Plaid Model S ships next month <a href="https://t.co/HFUPTnQiPB">pic.twitter.com/HFUPTnQiPB</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1354618504532684802?ref_src=twsrc%5Etfw">January 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </span>
+                     </li>
+                  </ul>
+
+		         </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li> <!--TODO-->
+              <li><a href="https://www.facebook.com/profile.php?id=100014198116459"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li> <!--TODO-->
+              <li><a href="https://mail.google.com/mail/u/?authuser=gpapad.csd@gmail.com"><i class="fa fa-google-plus"></i></a></li> <!--TODO-->
+              <li><a href="#"><i class="fa fa-github"></i></a></li> <!--TODO-->
+              <li><a href="hhttps://stackoverflow.com/users/1009130/0xgp"><i class="fa fa-stack-overflow"></i></a></li>              
+              <li><a href="https://twitter.com/dr_gpapad"><i class="fa fa-twitter"></i></a></li>              
+              <li><a href="https://join.skype.com/invite/q3hwib5bQBfB"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2020 Giorgos E. Papadakis.</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">gpapad</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+</body>
+
+</html>
+<!-- EOF -->
